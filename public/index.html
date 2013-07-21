@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Nick Cox: Fighting Burnout / Burlington Ruby</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -15,7 +15,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/nick-custom.css" id="theme">
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7494032/621602/css/fonts.css" />
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -36,191 +37,115 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
+
+        <section id='slide-1' data-transition='fade' data-background="#28D6C4" data-transition-speed='slow'>
+          <h1>[e</h1>
+          <aside class='notes'>
+            <ul>
+              <li>I work with a dev: Geoff</li>
+              <li>Few times in a career</li>
+              <li>Weird habits: standing, eating, Vim</li>
+              <li>Paring together: never used mouse</li>
+              <li>I decided: to use it for one keystroke: [e</li>
+              <li>Irony of this choice</li>
+            </ul>
+          </aside>
+				</section>
+
+        <section id='slide-2' data-transition='fade' data-transition-speed='slow' data-background="#fff">
+          <img src='img/zeus-gem.png' />
+          <aside class='notes'>
+            <ul>
+              <li>Found gems like Zeus, Spork, preloaders.</li>
+              <li>Saved seconds at a time</li>
+              <li>Began to optimize dotfiles, vimrc, plugins</li>
+            </ul>
+				</section>
+
+        <section id='slide-3' data-background='#262E3B' data-transition-speed="slow">
+          <h1>Thesis</h1>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
+          We can be more productive through <span>sleep</span>, <span>meditation</span>, and <span>healthy habits</span> than through editor shortcuts.</p>
+          <aside class='notes'>
+            <ul>
+              <li>productivity, as measured by editor shortcuts, gems</li>
+              <li>shortsighted at best, counterproductive at worst.</li>
+              <li>Greater overall improvements in efficiency are gained through sleep and meditation.</li>
+              <li>Should be at about 3:00 here</li>
+          </aside>
 				</section>
 
-				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+        <section id='slide-4' data-transition='fade' data-background='#ff5e99' data-transition-speed="slow">
+          <h3>So…you do a lot of typing?</h3> 
+          <aside class='notes'>
+            <ul>
+              <li>There is typing, but there's much more</li>
+              <li>Shout out, if you would, what is the essence of programming?</li>
+              <li>Keep those in mind; shift gears; brain</li>
+          </aside>
 				</section>
 
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
+				<section id='slide-5' data-transition='fade' data-background='#fff' data-transition-speed="fast">
+          <img class='no-shadow' src='img/brain.svg' />
+          <aside class='notes'>
+            <ul>
+              <li>I assumed programming used every part of brain.</li>
+              <li>Thought, memory, emotion, creativity, reading, speech</li>
+              <li>Brain accounts for 2% of body weight, takes 20-25% of calories</li>
+            </ul>
+          </aside>
 				</section>
 
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
-					</p>
+				<section id='slide-6' data-transition='fade' data-background='#fff' data-transition-speed="slow">
+          <img class='no-shadow' src='img/prefrontal-cortex.png' />
+          <aside class='notes'>
+            <ul>
+              <li>Location</li>
+              <li>Takes roughly 25% of glucose of brain</li>
+              <li>If the brain had body, it's the brain's brain</li>
+              <li>"Executive function" umbrella term organizing and planning to goal setting, problem-solving, abstract thinking</li>
+            </ul>
+          </aside>
 				</section>
 
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
+        <section id='slide-7' data-transition='none'>
+          <img class='no-shadow' src='img/venn-diagram-1.svg' />
+				</section>
+				<section id='slide-8' data-transition='none'>
+          <img class='no-shadow' src='img/venn-diagram-2.svg' />
+				</section>
+        <section id='slide-9' data-transition='none'>
+          <img class='no-shadow' src='img/venn-diagram-3.svg' />
+          <aside class='notes'>
+            <ul>
+              <li>Our ability to prgoram/executive function effected by sleep</li>
+              <li>Not a surprise, but the extent is interesting</li>
+            </ul>
+          </aside>
 				</section>
 
-				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides and pinch your way to the overview.
-					</p>
+        <section id='slide-10'>
+          <img src='img/uptime.png' />
+          <aside class='notes'>
+            <ul>
+              <li>We ask a lot of computers</li>
+              <li>Wife think like kids, vets think like animals, we think like comupters</li>
+              <li>We are happier healthier more productive when we accept our limitations</li>
+            </ul>
+          </aside>
+				</section>
+        
+        <section id='slide-11' data-background='#262E3B' data-transition='none'>
+          <h1>Sleep</h1>
 				</section>
 
-				<section>
-					<h2>Marvelous Unordered List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
+        <section id='slide-12' data-transition='none'>
+          <img class='no-shadow' src='img/rem.jpg' />
+				</section>
+				<section id='slide-13' data-transition='none'>
+          <img class='no-shadow' src='img/nrem.jpg' />
 				</section>
 
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  For those of you who like that sort of thing.
-						  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=cube#/transitions">Cube</a> -
-						<a href="?transition=page#/transitions">Page</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a> -
-						<a href="?transition=linear#/transitions">Linear</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?#/transitions">Default</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						Reveal.js comes with a few themes built in: <br>
-						<a href="?theme=sky#/themes">Sky</a> -
-						<a href="?theme=beige#/themes">Beige</a> -
-						<a href="?theme=simple#/themes">Simple</a> -
-						<a href="?theme=serif#/themes">Serif</a> -
-						<a href="?theme=night#/themes">Night</a> -
-						<a href="?#/themes">Default</a>
-					</p>
-					<p>
-						<small>
-							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-						</small>
-					</p>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<section data-background="#007777">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#007777"</code> on a slide to change the full page background to the given color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Repeated Image Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-				</section>
 
 				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
 					<h2>Background Transitions</h2>
@@ -355,10 +280,17 @@ function linkify( selector ) {
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: true,
+				controls: false,
 				progress: true,
 				history: true,
 				center: true,
+        transition: 'fade',
+        keyboard: {
+          38: 'prev',
+          40: 'next'
+        },
+        width: 1024,
+        height: 768,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
