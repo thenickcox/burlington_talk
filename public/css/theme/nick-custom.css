@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  * Default theme for reveal.js.
  *
@@ -149,3 +150,161 @@ body {
 
 #slide-10 img {
   padding: 25px; }
+
+#slide-14 .column {
+  float: left;
+  width: 48%;
+  margin-right: 2%; }
+  #slide-14 .column h3 {
+    font-weight: 600;
+    font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica;
+    text-shadow: 3px 3px 4px #dd6c17; }
+
+#slide-15 p {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  font-size: 1.5em;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 1.33em;
+  color: #0ab8a6; }
+  #slide-15 p em {
+    font-weight: 500;
+    color: white; }
+  #slide-15 p:before {
+    content: "“";
+    font-family: "Sentinel A", "Sentinel B";
+    position: relative;
+    right: 20px;
+    top: 30px;
+    opacity: 0.17;
+    font-size: 5em;
+    width: 0;
+    float: left; }
+#slide-15 cite {
+  text-align: right;
+  font-family: "Sentinel A", "Sentinel B";
+  font-weight: 100;
+  float: right;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  color: #00a997; }
+
+#slide-16 h3 {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.7em;
+  text-shadow: 3px 3px 2px #910000; }
+
+#slide-17 h2 {
+  font-family: "Sentinel A", "Sentinel B";
+  margin-bottom: 1em;
+  color: #474747;
+  font-style: italic; }
+#slide-17 pre code {
+  padding: 20px; }
+
+#slide-18 li {
+  color: #b54575;
+  font-size: 3em;
+  list-style: none;
+  position: relative;
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica;
+  font-weight: 900;
+  margin-right: 3em; }
+#slide-18 .ex1 {
+  -webkit-transform: rotate(-51deg);
+  right: 3em;
+  top: 3em; }
+#slide-18 .ex2 {
+  -webkit-transform: rotate(-10deg);
+  right: 1em;
+  top: 1em; }
+#slide-18 .ex3 {
+  -webkit-transform: rotate(17deg);
+  left: 3em;
+  top: 1em; }
+#slide-18 .ex4 {
+  -webkit-transform: rotate(66deg);
+  left: 6em;
+  top: 2em; }
+
+#slide-19 {
+  padding: 20px; }
+
+#slide-20 h1 {
+  font-family: "Sentinel A", "Sentinel B";
+  font-style: italic;
+  color: #517086;
+  text-shadow: 2px 2px 0px white; }
+
+#slide-21 h2 {
+  font-family: "Sentinel A", "Sentinel B";
+  text-shadow: 2px 2px 1px #1ea89a; }
+#slide-21 > ul {
+  list-style: none; }
+  #slide-21 > ul li {
+    font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica;
+    text-shadow: 2px 2px 1px black; }
+  #slide-21 > ul span {
+    font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica;
+    font-weight: 700;
+    float: left;
+    width: 11em; }
+
+#slide-22 h2 {
+  color: #223232;
+  letter-spacing: 1px;
+  font-family: "Sentinel A", "Sentinel B";
+  text-align: left;
+  text-shadow: none; }
+
+#slide-23 h1 {
+  margin-bottom: 1em; }
+#slide-23 p {
+  font-size: 1.3em; }
+#slide-23 p, #slide-23 span {
+  text-align: left;
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica; }
+#slide-23 .strikethrough {
+  text-decoration: line-through;
+  color: #c5bc65; }
+#slide-23 .inner {
+  color: white; }
+#slide-23 .happier {
+  -webkit-transform: rotate(-13deg);
+  font-family: "Marker Felt";
+  color: #c5bc65;
+  display: block;
+  position: relative;
+  right: 2em;
+  bottom: 0.5em; }
+
+#slide-24 h2 {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica;
+  color: #ffeeee;
+  text-shadow: 2px 2px 2px #e96a0a; }
+
+#slide-25 h1 {
+  color: #28d6c4;
+  text-shadow: 2px 2px 2px #146b62; }
+#slide-25 p {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica;
+  color: #223232; }
+
+#slide-26 {
+  color: #223232;
+  font-family: "Sentinel A", "Sentinel B"; }
+  #slide-26 h3 {
+    color: #223232;
+    font-family: "Sentinel A", "Sentinel B"; }
+  #slide-26 ul {
+    list-style: none; }
+    #slide-26 ul li {
+      margin: 0.8em 0;
+      line-height: 1.3em;
+      font-size: 0.85em; }
+  #slide-26 span.book {
+    font-style: italic; }
