@@ -1,44 +1,47 @@
 <!doctype html>
-<html lang="en">
+<html lang='en'>
 
 	<head>
-		<meta charset="utf-8">
+		<meta charset='utf-8'>
 
 		<title>Nick Cox: Fighting Burnout / Burlington Ruby</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name='description' content='A framework for easily creating beautiful presentations using HTML'>
+		<meta name='author' content='Hakim El Hattab'>
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name='apple-mobile-web-app-capable' content='yes' />
+		<meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
 
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/nick-custom.css" id="theme">
-    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7494032/621602/css/fonts.css" />
+		<link rel='stylesheet' href='css/reveal.min.css'>
+		<link rel='stylesheet' href='css/theme/nick-custom.css' id='theme'>
+    <link rel='stylesheet' type='text/css' href='//cloud.typography.com/7494032/621602/css/fonts.css' />
 
 		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel='stylesheet' href='lib/css/zenburn.css'>
 
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
-			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+			document.write( "<link rel='stylesheet' href='css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css' type='text/css' media='print'>" );
 		</script>
 
+    <!-- typekit -->
+    <script type='text/javascript' src='//use.typekit.net/fny0npi.js'></script>
+    <script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
 		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
+		<script src='lib/js/html5shiv.js'></script>
 		<![endif]-->
 	</head>
 
 	<body>
 
-		<div class="reveal">
+		<div class='reveal'>
 
 			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
+			<div class='slides'>
 
-        <section id='slide-1' data-transition='fade' data-background="#28D6C4" data-transition-speed='slow'>
+        <section id='slide-1' data-transition='fade' data-background='#28D6C4' data-transition-speed='slow'>
           <h1>[e</h1>
           <aside class='notes'>
             <ul>
@@ -52,7 +55,7 @@
           </aside>
 				</section>
 
-        <section id='slide-2' data-transition='fade' data-transition-speed='slow' data-background="#fff">
+        <section id='slide-2' data-transition='fade' data-transition-speed='slow' data-background='#fff'>
           <img src='img/zeus-gem.png' />
           <aside class='notes'>
             <ul>
@@ -62,7 +65,7 @@
             </ul>
 				</section>
 
-        <section id='slide-3' data-background='#262E3B' data-transition-speed="slow">
+        <section id='slide-3' data-background='#262E3B' data-transition-speed='slow'>
           <h1>Thesis</h1>
 					<p>
           We can be more productive through <span>sleep</span>, <span>meditation</span>, and <span>healthy habits</span> than through editor shortcuts.</p>
@@ -75,7 +78,7 @@
           </aside>
 				</section>
 
-        <section id='slide-4' data-transition='fade' data-background='#ff5e99' data-transition-speed="slow">
+        <section id='slide-4' data-transition='fade' data-background='#ff5e99' data-transition-speed='slow'>
           <h3>So…you do a lot of typing?</h3> 
           <aside class='notes'>
             <ul>
@@ -85,7 +88,7 @@
           </aside>
 				</section>
 
-				<section id='slide-5' data-transition='fade' data-background='#fff' data-transition-speed="fast">
+				<section id='slide-5' data-transition='fade' data-background='#fff' data-transition-speed='fast'>
           <img class='no-shadow' src='img/brain.svg' />
           <aside class='notes'>
             <ul>
@@ -96,14 +99,14 @@
           </aside>
 				</section>
 
-				<section id='slide-6' data-transition='fade' data-background='#fff' data-transition-speed="slow">
+				<section id='slide-6' data-transition='fade' data-background='#fff' data-transition-speed='slow'>
           <img class='no-shadow' src='img/prefrontal-cortex.png' />
           <aside class='notes'>
             <ul>
-              <li>Location</li>
+              <li>Location in front of brain</li>
               <li>Takes roughly 25% of glucose of brain</li>
               <li>If the brain had body, it's the brain's brain</li>
-              <li>"Executive function" umbrella term organizing and planning to goal setting, problem-solving, abstract thinking</li>
+              <li>'Executive function' umbrella term organizing and planning to goal setting, problem-solving, abstract thinking</li>
             </ul>
           </aside>
 				</section>
@@ -118,7 +121,7 @@
           <img class='no-shadow' src='img/venn-diagram-3.svg' />
           <aside class='notes'>
             <ul>
-              <li>Our ability to prgoram/executive function effected by sleep</li>
+              <li>Our ability to program/executive function effected by sleep</li>
               <li>Not a surprise, but the extent is interesting</li>
             </ul>
           </aside>
@@ -147,34 +150,49 @@
 				</section>
 
 
-				<section id='slide-14' data-transition="linear" data-background="#F68530" data-background-transition="slide">
+				<section id='slide-14' data-transition='linear' data-background='#F68530' data-background-transition='slide'>
           <div class='column'>
-            <!-- photo of waking brain -->
+            <h3>REM Sleep</h3>
+            <img class='no-shadow' src='img/awake.svg' />
           </div>
           <div class='column'>
             <h3>Non-REM Sleep</h3>
-            <!-- photo of sleeping brain -->
+            <img class='no-shadow' src='img/asleep.svg' />
           </div>
+          <aside class='notes'>
+            <ul>
+              <li>During REM sleep, brain is active, stimulated (where dreams come from)</li>
+              <li>nREM is recovery; this is where we need to be restored</li>
+            </ul>
+          </aside>
 				</section>
 
-				<section id='slide-15' data-transition="linear" data-background="#223232" data-background-transition="slide">
+				<section id='slide-15' data-transition='linear' data-background='#223232' data-background-transition='slide'>
           <p>[The prefrontal cortex] plays a prominent role in waking executive functions which are <em>preferentially impaired</em> following sleep deprivation.
           </p>
           <cite>(Nofzinger, E., 2013, p. 203, my italics).</cite>
           <aside class='notes'>
-          <ul>
-            <li>These tasks impaired following sleep deprivation, and restored after "recovery sleep."</li>
-            <li>Tasks involving executive function are adversely affected by, and thus especially vulnerable to, sleepiness</li>
-            <li>When working, especially when pairing, our prefrontal cortex is the first thing to go. Focused work is harder, productivity is scarcer</li>
+            <ul>
+              <li>Executive tasks impaired following sleep deprivation, and restored after 'recovery sleep.'</li>
+              <li>Tasks involving executive function are adversely affected by, and thus especially vulnerable to, sleepiness</li>
+              <li>When working, especially when pairing, our prefrontal cortex is the first thing to go. Focused work is harder, productivity is scarcer</li>
+            </ul>
           </aside>
 				</section>
 
         <section id='slide-16' data-background='#AF0002'>
-          <!-- use css3 animations to animate these letters -->
-          <h3>Stress</h3>
+          <h3>
+            <span class='s1'>S</span>
+            <span class='t'>t</span>
+            <span class='r'>r</span>
+            <span class='e'>e</span>
+            <span class='s2'>s</span>
+            <span class='s3'>s</span>
+          </h3>
           <aside class='notes'>
             <ul>
               <li>caveat: Average developer salary 2x the median household income</li>
+              <li>Name privilege</li>
               <li>Developers educated w/access to further knowledge</li>
               <li>Encourage us to see our privilege, but to acknowledge that most we tend to neglect our human needs</li>
               <li>working 60+ hour weeks, building quick launches, etc. Are we eating well? Sleeping well?</li>
@@ -197,10 +215,10 @@
 
         <section id='slide-18' data-background='#fff'>
           <ul>
-            <li class='fragment ex1'>!</span>
-            <li class='fragment ex2'>!</span>
-            <li class='fragment ex3'>!</span>
-            <li class='fragment ex4'>!</span>
+            <li class='ex1 exclamation'>!</span>
+            <li class='ex2 exclamation'>!</span>
+            <li class='ex3 exclamation'>!</span>
+            <li class='ex4 exclamation'>!</span>
           </ul>
           <img class='no-shadow' src='img/brain.svg' />
           <aside class='notes'>
@@ -219,6 +237,14 @@
 
         <section id='slide-20' data-background='#C1D8EA'>
           <h1>Breathe.</h1>
+          <div id='clouds'>
+            <div class='cloud x1'></div>
+            <!-- Time for multiple clouds to dance around -->
+            <div class='cloud x2'></div>
+            <div class='cloud x3'></div>
+            <div class='cloud x4'></div>
+            <div class='cloud x5'></div>
+          </div>
           <aside class='notes'>
             <ul>
               <li>Stand up. Find your diaphragm.</li>
@@ -228,9 +254,9 @@
           </aside>
 				</section>
 
-        <section id='slide-21' data-transition='fade' data-background="#223232" data-transition-speed='slow'>
+        <section id='slide-21' data-transition='fade' data-background='#223232' data-transition-speed='slow'>
           <h2>Micromeditations</h2>
-          <!-- make this headline float -->
+          <img class='no-shadow' src='img/lotus.svg' />
           <ul>
             <li class='fragment'><span>Unit tests:</span> 1 breath.</li>
             <li class='fragment'><span>Integration tests:</span> 3 breaths.</li>
@@ -238,40 +264,42 @@
           </ul>
           <aside class='notes'>
             <ul>
-              <li>Stand up. Find your diaphragm.</li>
-              <li>Diaphragm works opposite of lungs. When it contracts, it allows lungs to expand.</li>
-              <li>4 fingers under where chest starts.</li>
+              <li>You don't need to meditate for 10 minutes every day.</li>
+              <li>With practice, you can recenter with one breath.</li>
             </ul>
           </aside>
           </section>
 
-         <section id='slide-22' data-transition='fade' data-background='#fff' data-transition-speed="slow">
+         <section id='slide-22' data-transition='fade' data-background='#fff' data-transition-speed='slow'>
            <h2>Not everything<br />
              needs to be measured.</h2> 
+          <aside class='notes'>
+            <ul>
+              <li>Had planned to provide objective measures, but decided to just live.</li>
+              <li>Even if I had, my findings would've been biased. Small sample size, etc.</li>
+              <li>A change in thesis</li>
+          </aside>
 				</section>
 
-        <section id='slide-23' data-transition='fade' data-background='#262E3B' data-transition-speed="slow">
+        <section id='slide-23' data-transition='fade' data-background='#262E3B' data-transition-speed='slow'>
           <h1>Thesis</h1>
           <span class='happier'>happier</span>
 					<p>
           We can be <span class='strikethrough'><span class='inner'>more productive</span></span> through <span>sleep</span>, <span>meditation</span>, and <span>healthy habits</span> than through editor shortcuts.</p>
           <aside class='notes'>
             <ul>
-              <li>productivity, as measured by editor shortcuts, gems</li>
-              <li>shortsighted at best, counterproductive at worst.</li>
-              <li>Greater overall improvements in efficiency are gained through sleep and meditation.</li>
-              <li>Should be at about 3:00 here</li>
+              <li>Both personally and in my work as a therapist, these things affect health and wellbeing.</li>
           </aside>
 				</section>
 
-         <section id='slide-24' data-transition='fade' data-background='#F68530' data-transition-speed="slow">
+         <section id='slide-24' data-transition='fade' data-background='#F68530' data-transition-speed='slow'>
            <h2>Be kind to yourself.</h2>
 				</section>
 
 				<!--<section>-->
 					<!--<h2>Export to PDF</h2>-->
-					<!--<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>-->
-					<!--<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>-->
+					<!--<p>Presentations can be <a href='https://github.com/hakimel/reveal.js#pdf-export'>exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>-->
+					<!--<iframe id='slideshare' src='http://www.slideshare.net/slideshow/embed_code/13872948' width='455' height='356' style='margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px' allowfullscreen> </iframe>-->
 					<!--<script>-->
 						<!--document.getElementById('slideshare').attributeName = 'allowfullscreen';-->
 					<!--</script>-->
@@ -279,12 +307,12 @@
 
 				
 
-				<section id='slide-25'>
+				<section id='slide-25' data-transition='fade' data-transition-speed='slow'>
           <h1>Thank you.</h1>
           <p>@everydaytype | nickcox.me</p>
 				</section>
 
-        <section id='slide-26'>
+        <section id='slide-26' data-transition='fade' data-transition-speed='slow'>
           <h3>References</h3>
           <ul>
             <li>Bremner, D. (2003). <span class='book'>Does Stress Damage the Brain? Understanding Trauma-Related Disorders from a Mind-Body Perspective.</span> New York, NY: W.W. Norton.</li>
@@ -295,14 +323,40 @@
 
             <li>Oden, J. & Treem, W. (2003). Inborn errors of fasting adaptation. In Walker, A., Watkins, J., & Duggan, C. (Eds.), <span class='book'>Nutrition in Pediatrics: Basic Science and Clinical Applications<span>. Hamilton, ON: BC Decker, Inc.<li>
           </ul>
-				</section>
+        </section>
+
+        <section id='slide-27' data-transition='fade' data-transition-speed='slow'> 
+          <h3>Colophon</h3>
+          <ul>
+            <li>Type
+              <ul>
+                <li>Sentinel.<em> Designed by Hoefler & Frère-Jones, 2009</em></li>
+                <li class='whitney'>Whitney.<em> Designed by Tobias Frère-Jones, date unknown</em></li>
+                <li class='market'>FF Market.<em> Designed by H.A. Simon, 1996</em></li>
+              </ul>
+            </li>
+            <li>Tech
+              <ul>
+                <li>Designed & developed using reveal.js, Sass, and Sinatra.rb</li>
+                <li>H&FJ Fonts served by Cloud.typography</li>
+                <li>FontFont fonts served by Typekit</li>
+                <li>Hand-coded in Vim (duh)</li>
+              </ul>
+            </li>
+            <li>Other
+              <ul>
+                <li>Photo of REM by Anton Corbijn, 2010</li>
+              </ul>
+            </li>
+        </section>
+
 
 			</div>
 
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
+		<script src='lib/js/head.min.js'></script>
+		<script src='js/reveal.min.js'></script>
 
 		<script>
 

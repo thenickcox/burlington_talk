@@ -15,6 +15,7 @@ $gray: #262E3B
 
 body
   background: #fff
+  overflow: hidden
 
 .reveal
   font-size: 36px
@@ -135,7 +136,7 @@ body
 #slide-3 #slide-2 h2
   font-family: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica
 
-#slide-3
+#slide-3, #slide-23
   h1
     font-size: 4em
   p
@@ -168,12 +169,14 @@ body
 #slide-14
   .column
     float: left
-    width: 48%
-    margin-right: 2%
+    width: 44%
+    margin-right: 4%
     h3
       font-weight: 600
       font-family: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica
       text-shadow: 3px 3px 4px (#F68530 - 25)
+    img
+      background: transparent
 
 #slide-15
   p
@@ -215,6 +218,45 @@ body
     font-size: 1.7em
     text-shadow: 3px 3px 2px #AF0002 - 30
 
+  span
+    display: inline-block 
+  .s1
+    -webkit-animation-name: shake
+    -webkit-animation-duration: 0.6s
+    -webkit-transform-origin: 50% 50%
+    -webkit-animation-iteration-count: infinite
+    -webkit-animation-timing-function: linear
+  .t
+    -webkit-animation-name: shake
+    -webkit-animation-duration: 0.4s
+    -webkit-transform-origin: 50% 50%
+    -webkit-animation-iteration-count: infinite
+    -webkit-animation-timing-function: linear
+  .r
+    -webkit-animation-name: shake
+    -webkit-animation-duration: 0.9s
+    -webkit-transform-origin: 50% 50%
+    -webkit-animation-iteration-count: infinite
+    -webkit-animation-timing-function: linear
+  .e
+    -webkit-animation-name: shake
+    -webkit-animation-duration: 0.7s
+    -webkit-transform-origin: 50% 50%
+    -webkit-animation-iteration-count: infinite
+    -webkit-animation-timing-function: linear
+  .s2
+    -webkit-animation-name: shake
+    -webkit-animation-duration: 0.6s
+    -webkit-transform-origin: 50% 50%
+    -webkit-animation-iteration-count: infinite
+    -webkit-animation-timing-function: linear
+  .s3
+    -webkit-animation-name: shake
+    -webkit-animation-duration: 0.3s
+    -webkit-transform-origin: 50% 50%
+    -webkit-animation-iteration-count: infinite
+    -webkit-animation-timing-function: linear
+
 #slide-17
   h2
     font-family: 'Sentinel A', 'Sentinel B'
@@ -233,25 +275,35 @@ body
     font-family: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica
     font-weight: 900
     margin-right: 3em
+  .exclamation
+    box-shadow: 0 0 85px #b54575
+    float: left
+    padding: 40px
+    border-radius: 80px
   .ex1
-    -webkit-transform: rotate(-51deg)
-    right: 3em
+    -webkit-animation: blinker 0.75s cubic-bezier(.5, 0, 1, 1) infinite alternate
+    -webkit-transform: rotate(-60deg)
+    right: 0em
     top: 3em
   .ex2
-    -webkit-transform: rotate(-10deg)
-    right: 1em
+    -webkit-animation: blinker 0.6s cubic-bezier(.5, 0, 1, 1) infinite alternate
+    -webkit-transform: rotate(-24deg)
+    right: 1.5em
     top: 1em
   .ex3
-    -webkit-transform: rotate(17deg)
-    left: 3em
-    top: 1em
+    -webkit-animation: blinker 0.66s cubic-bezier(.5, 0, 1, 1) infinite alternate
+    -webkit-transform: rotate(36deg)
+    left: 6.4em
+    top: 0.5em
   .ex4
-    -webkit-transform: rotate(66deg)
-    left: 6em
-    top: 2em
+    -webkit-animation: blinker 0.7s cubic-bezier(.5, 0, 1, 1) infinite alternate
+    -webkit-transform: rotate(78deg)
+    left: 4em
+    top: 3em
 
 #slide-19
-  padding: 20px
+  img
+    padding: 20px
 
 #slide-20
   h1
@@ -259,11 +311,111 @@ body
     font-style: italic
     color: #517086
     text-shadow: 2px 2px 0px #fff
+  #clouds
+    position: absolute
+  .cloud
+    width: 200px
+    height: 60px
+    background: #fff
+    border-radius: 200px
+    -moz-border-radius: 200px
+    -webkit-border-radius: 200px
+    position: relative
+    &:before, &:after
+      content: ''
+      position: absolute
+      background: #fff
+      width: 100px
+      height: 80px
+      top: -15px
+      left: 10px
+      
+      border-radius: 100px
+      -moz-border-radius: 100px
+      -webkit-border-radius: 100px
+      
+      -webkit-transform: rotate(30deg)
+      transform: rotate(30deg)
+      -moz-transform: rotate(30deg)
+
+    &:after
+      width: 120px
+      height: 120px
+      top: -55px
+      left: auto
+      right: 15px
+
+  .x1
+    -webkit-animation: moveclouds 25s linear
+    -moz-animation: moveclouds 25s linear 
+    -o-animation: moveclouds 25s linear 
+
+  .x2
+    left: -200px
+    bottom: 100px
+    -webkit-transform: scale(0.6)
+    -moz-transform: scale(0.6)
+    transform: scale(0.6)
+    opacity: 0.4
+    -webkit-animation: moveclouds 65s linear 
+    -moz-animation: moveclouds 65s linear 
+    -o-animation: moveclouds 65s linear 
+
+  .x3
+    left: -250px
+    top: -200px
+    -webkit-transform: scale(0.8)
+    -moz-transform: scale(0.8)
+    transform: scale(0.8)
+    opacity: 0.6
+    -webkit-animation: moveclouds 30s linear 
+    -moz-animation: moveclouds 30s linear 
+    -o-animation: moveclouds 30s linear 
+
+  .x4
+    left: -470px
+    top: -450px
+    -webkit-transform: scale(0.75)
+    -moz-transform: scale(0.75)
+    transform: scale(0.75)
+    opacity: 0.35
+    -webkit-animation: moveclouds 39s linear 
+    -moz-animation: moveclouds 39s linear 
+    -o-animation: moveclouds 39s linear 
+
+  .x5
+    left: -150px
+    bottom: 35px
+    -webkit-transform: scale(0.8)
+    -moz-transform: scale(0.8)
+    transform: scale(0.8)
+    opacity: 0.6
+    -webkit-animation: moveclouds 34s linear 
+    -moz-animation: moveclouds 34s linear 
+    -o-animation: moveclouds 34s linear 
+
+
+
 
 #slide-21
   h2
     font-family: 'Sentinel A', 'Sentinel B'
     text-shadow: 2px 2px 1px rgb(30, 168, 154)
+    margin-bottom: 1em
+
+  img
+    width: 60px
+    background: transparent
+    -webkit-animation-name: Floatingx
+    -webkit-animation-duration: 3.5s
+    -webkit-animation-iteration-count: infinite
+    -webkit-animation-timing-function: ease-in-out
+    -moz-animation-name: Floating
+    -moz-animation-duration: 3.5s
+    -moz-animation-iteration-count: infinite
+    -moz-animation-timing-function: ease-in-out
+
+
   & > ul 
     list-style: none
     li
@@ -275,6 +427,9 @@ body
       float: left
       width: 11em
 
+
+
+
 #slide-22
   h2
     color: #223232
@@ -285,25 +440,23 @@ body
 
 #slide-23
   h1
-    margin-bottom: 1em
-  p
-    font-size: 1.3em
-  p, span
-    text-align: left
-    font-family: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica
+    margin-bottom: 0.5em
   .strikethrough
     text-decoration: line-through
     color: #C5BC65
   .inner
-    color: #fff
+    color: #eee
+    font-weight: 100
   .happier
     -webkit-transform: rotate(-13deg)
-    font-family: 'Marker Felt'
+    font-family: 'ff-market-web', 'Marker Felt'
+    font-style: normal
     color: #C5BC65
     display: block
     position: relative
-    right: 2em
-    bottom: 0.5em
+    left: 1em
+    bottom: 0.25em
+    font-size: 2em
 
 #slide-24
   h2
@@ -319,7 +472,7 @@ body
     font-family: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica
     color: #223232
 
-#slide-26
+#slide-26, #slide-27
   color: #223232
   font-family: 'Sentinel A', 'Sentinel B'
   h3
@@ -333,4 +486,71 @@ body
       font-size: 0.85em
   span.book
     font-style: italic
-    
+  .whitney
+    font-family: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica
+  .market
+    font-family: 'ff-market-web', 'Marker Felt'
+  
+
+/*********************************************
+ * ANIMATIONS
+ ********************************************
+
+@-webkit-keyframes Floatingx
+  0% 
+    -webkit-transform: translate(0, 0px)
+  65%
+    -webkit-transform: translate(0, 23px)
+  100% 
+    -webkit-transform: translate(0, 0px)
+
+@-webkit-keyframes shake
+  0%
+    -webkit-transform: translate(2px, 1px) rotate(0deg)
+  10%
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg)
+  20%
+    -webkit-transform: translate(-3px, 0px) rotate(1deg)
+  30%
+    -webkit-transform: translate(0px, 2px) rotate(0deg)
+  40%
+    -webkit-transform: translate(1px, -1px) rotate(1deg)
+  50%
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg)
+  60%
+    -webkit-transform: translate(-3px, 1px) rotate(0deg)
+  70%
+    -webkit-transform: translate(2px, 1px) rotate(-1deg)
+  80%
+    -webkit-transform: translate(-1px, -1px) rotate(1deg)
+  90%
+    -webkit-transform: translate(2px, 2px) rotate(0deg)
+  100%
+    -webkit-transform: translate(1px, -2px) rotate(-1deg)
+
+@-webkit-keyframes moveclouds
+  0%
+    margin-left: 1000px
+  100%
+    margin-left: -1000px
+
+@-moz-keyframes moveclouds
+  0%
+    margin-left: 1000px
+  100%
+    margin-left: -1000px
+
+
+@-o-keyframes moveclouds
+  0%
+    margin-left: 1000px
+  100%
+    margin-left: -1000px
+
+
+@-webkit-keyframes blinker
+  from
+    opacity: 1
+  to
+    opacity: 0
+
